@@ -1,0 +1,70 @@
+body{
+    background-color: lightgray;
+    margin: auto 10%;
+}
+header{
+    text-align: center;
+    font-family: Monotype corsiva;
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px 3px black; 
+}
+nav{
+    background-color: palevioletred;
+    height: 40px;
+}
+nav li a{
+    text-decoration: none;
+    font-family: fantasy;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 10px;
+    margin-right: 20px;
+}
+nav form {
+    float: right;
+    padding: 10px;
+}
+main article{
+    background-color: white;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    height: 530px;
+
+}
+main aside {
+    background-color: palevioletred;
+    float: left;
+    width: 18%;
+    padding: 10px; 
+    height: 530px;
+    margin-left: 10px;
+}
+main{
+    margin-top: 10px;
+}
+footer{   
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: 10px;
+    width: 100%;
+}
+main h2{
+    text-align: center;
+    font-family: monospace;
+}
+main h3{
+    font-family: monospace;
+}
+#btn{
+    background-color: black;
+    border-color: black;
+    color: white;
+    width: 50px;
+}
